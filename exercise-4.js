@@ -15,7 +15,8 @@ window.addEventListener("load", () => {
   });
 });
 
-/* per aggiungere i <li> avrei potuto anche creare un elemento 
+/* 
+   Per aggiungere i <li> avrei potuto anche creare un elemento 
    direttamente in JS (document.createElement) e poi aggiungerlo 
    all'ul con appendChild() -> ul.appendChild(li);
    ma in questo caso mi sembrava piu veloce modificare il suo HTML 

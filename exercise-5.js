@@ -6,12 +6,11 @@ const power = (base, exponent) => {
     const numExp = Number(exponent);
 
     if (isNaN(numBase) && isNaN(numExp)) {
-      throw new Error(`${base} and ${exponent} are not numbers`);
-    }
-    if (isNaN(numBase)) {
-      throw new Error(`${base} is not a number`);
+      throw new Error(`'${base}' and '${exponent}' are not numbers`);
+    }else if (isNaN(numBase)) {
+      throw new Error(`'${base}' is not a number`);
     } else if (isNaN(numExp)) {
-      throw new Error(`${exponent} is not a number`);
+      throw new Error(`'${exponent}' is not a number`);
     } else {
       return numBase ** numExp;
     }
