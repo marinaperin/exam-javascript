@@ -17,7 +17,6 @@ book.increaseRating = increaseRating = (num)=>{
     if(book.rating >= 10){
         book.rating = 10;
     }
-    return book.rating;
 };
 
 // 3
