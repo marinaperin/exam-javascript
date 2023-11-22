@@ -22,3 +22,5 @@ const power = (base, exponent) => {
     console.log("Operation complete");
   }
 };
+
+// Per lanciare gli errori avrei potuto usare anche uno switch
