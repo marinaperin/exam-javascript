@@ -74,3 +74,8 @@ devTeamCopy.testers.push(newTester);
 
     In totale, abbiamo dunque 18 oggetti in memoria.
 */
+
+/*
+  Per fare la copia, avrei potuto usare anche lo spread/rest operator, ma
+  con troppi oggetti annidati non conviene; cosi come una funzione ricorsiva
+*/

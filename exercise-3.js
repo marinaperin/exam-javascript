@@ -30,3 +30,10 @@ for(let i = 0; i < keys.length; i++){
     const key = keys[i];
     console.log(`${key}: ${book[key]}`);
 }
+
+/*
+    Avrei potuto prendere anche le Object.entries, che mi tornava un array di
+    array chiave-valore, oppure prendere direttamente sia le keys che i values,
+    ma sapendo che con le parentesi quadre di key e un ciclo posso ottenere i
+    values, mi sembrava un passaggio extra non strettamente necessario.
+*/

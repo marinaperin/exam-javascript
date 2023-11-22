@@ -23,4 +23,4 @@ const power = (base, exponent) => {
   }
 };
 
-// Per lanciare gli errori avrei potuto usare anche uno switch
+// Avrei potuto usare anche uno switch
