@@ -12,7 +12,7 @@ book.rating = 6;
 
 // 2
 
-book.increaseRating = increaseRating = (num)=>{
+book.increaseRating = (num)=>{
     book.rating += num;
     if(book.rating >= 10){
         book.rating = 10;
