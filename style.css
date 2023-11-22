@@ -62,3 +62,6 @@ ul{
 button:hover{
     background-color: hsl(187, 76%, 40%);
 }
+p{
+    color: palevioletred;
+}
