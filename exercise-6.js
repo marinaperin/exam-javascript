@@ -28,7 +28,7 @@ const devTeam = {
 // 2
 
 const teamLead = devTeam.lead;
-teamLead.skills += `, GraphQL`;
+teamLead.skills.push("GraphQL");
 
 // 3
 
